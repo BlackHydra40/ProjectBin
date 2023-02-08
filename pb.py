@@ -14,6 +14,12 @@ celeste = '\033[36;1m'
 plomo = '\033[30;1m'
 close = '\033[0m'
 os.system("clear")
+print(celeste)
+print('    ____     ______   ____    __  __    ____   _____    ____  ______   ____    _____')
+print('   / __ \   / ____/  / __ \  / / / /   /  _/  / ___/   /  _/ /_  __/  / __ \  / ___/')
+print('  / /_/ /  / __/    / / / / / / / /    / /    \__ \    / /    / /    / / / /  \__ \ ')
+print(' / _, _/  / /___   / /_/ / / /_/ /   _/ /    ___/ /  _/ /    / /    / /_/ /  ___/ / ')
+print('/_/ |_|  /_____/   \___\_\ \____/   /___/   /____/  /___/   /_/     \____/  /____/  ')
 bi = str(input('Você deseja instalar os Requisitos ? s ou n ?: '))
 if bi == 's':
    os.system("bash install.sh")
@@ -24,7 +30,7 @@ os.system("cat baner.txt | lolcat")
 print(celeste)
 print('FEITO PELO MS40!!!')
 b = True
-c = False
+m = False
 
 s = True
 n = False
@@ -43,19 +49,19 @@ bin10 = random.randrange(333333, 555555)
 
 #////////////////////////////////////////////////
 
-cpf = random.randrange(12345678900, 99999999999)
-cpf1 = random.randrange(12345678900, 99999999999)
-cpf2 = random.randrange(12345678900, 99999999999)
-cpf3 = random.randrange(12345678900, 99999999999)
-cpf4 = random.randrange(12345678900, 99999999999)
-cpf5 = random.randrange(12345678900, 99999999999)
-cpf6 = random.randrange(12345678900, 99999999999)
-cpf7 = random.randrange(12345678900, 99999999999)
-cpf8 = random.randrange(12345678900, 99999999999)
-cpf9 = random.randrange(12345678900, 99999999999)
-cpf10 = random.randrange(12345678900, 99999999999)
+cpf = random.randrange(44444444444, 66666666666)
+cpf1 = random.randrange(44444444444, 66666666666)
+cpf2 = random.randrange(44444444444, 66666666666)
+cpf3 = random.randrange(44444444444, 66666666666)
+cpf4 = random.randrange(44444444444, 66666666666)
+cpf5 = random.randrange(44444444444, 66666666666)
+cpf6 = random.randrange(44444444444, 66666666666)
+cpf7 = random.randrange(44444444444, 66666666666)
+cpf8 = random.randrange(44444444444, 66666666666)
+cpf9 = random.randrange(44444444444, 66666666666)
+cpf10 = random.randrange(44444444444,66666666666)
 
-bi = str(input('Você deseja gerar uma BIN ou um cpf ? b=BIN ou c=CPF?: '))
+bi = str(input('Você deseja gerar uma BIN ou uma MATRIZ ? b=BIN ou m=MATRIZ?: '))
 
 if bi == 'b':
     os.system("clear")
@@ -78,18 +84,18 @@ else:
     os.system ("toilet -f big 'gerando' -F gay | lolcat")
     time.sleep(1)
     print(amarillo)
-    print('CPF GERADA :', cpf)
-    print('CPF GERADA :', cpf1)
-    print('CPF GERADA :', cpf2)
-    print('CPF GERADA :', cpf3)
-    print('CPF GERADA :', cpf4)
-    print('CPF GERADA :', cpf5)
-    print('CPF GERADA :', cpf6)
-    print('CPF GERADA :', cpf7)
-    print('CPF GERADA :', cpf8)
-    print('CPF GERADA :', cpf9)
-    print('CPF GERADA :', cpf10)
-    bi = str(input('deseja ver se o cpf é valida no nosso grupo de puxa dados ? s ou n?: '))
+    print('MATRIZ GERADO :', cpf)
+    print('MATRIZ GERADO :', cpf1)
+    print('MATRIZ GERADO :', cpf2)
+    print('MATRIZ GERADO :', cpf3)
+    print('MATRIZ GERADO :', cpf4)
+    print('MATRIZ GERADO :', cpf5)
+    print('MATRIZ GERADO :', cpf6)
+    print('MATRIZ GERADO :', cpf7)
+    print('MATRIZ GERADO :', cpf8)
+    print('MATRIZ GERADA :', cpf9)
+    print('MATRIZ GERADA :', cpf10)
+    bi = str(input('deseja ver se o MATRIZ é valida no nosso grupo de puxa dados ? s ou n?: '))
 if bi == 's':
     print('ENTRANDO NO TELEGRAM')
     os.system("xdg-open https://t.me/BlackCHKNGKS &> /dev/null && sleep 10")
